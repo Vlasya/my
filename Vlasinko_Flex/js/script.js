@@ -1,20 +1,21 @@
-// $('.burger-btn').on('click',function(e){
-// 	e.preventDefault();
-// 	$(this).toggleClass('burger-menu_active');
-// 	$('.nav-links').toggleClass('nav-links_active');
+$('.burger-btn').on('click',function(e){
+	e.preventDefault();
+	$(this).toggleClass('burger-menu_active');
+	$('.nav-links').toggleClass('nav-links_active');
 	
-// });
+});
 
-document.querySelector('.burger-btn').addEventListener('click',function(e){
-	e.target.classList.toggle('burger-menu_active');
-})
+// document.querySelector('.burger-btn').addEventListener('click',function(e){
+// 	e.target.classList.toggle('burger-menu_active');
+// })
 
 
 
-var options = {
-	offset: 100
- }
-var header = new Headhesive('.nav', options);
+// var options = {
+// 	offset: 100
+//  }
+// var header = new Headhesive('.nav', options);
+
 // slider
 $('.slider').slick({
 	slidesToShow: 1,
