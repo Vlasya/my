@@ -1,0 +1,44 @@
+@media (max-width:1170px){
+	.nav-link{
+		margin-left: 20px;
+	}
+}
+@media (max-width:935px){
+	.nav-links{
+		justify-content: space-between;
+		display: none;
+	}
+	.nav{
+		align-items: start;
+		justify-content: space-around;
+	}
+	.burger{
+		display: block;
+	}
+	.burger-link:active .ul{
+		display: block;
+	}
+	.burger-menu{
+		display: block;
+		z-index: 400;
+	}
+	.btn__red{
+		background-color:transparent;
+		border:none;
+	}
+	.header-contant h1{
+		max-width: 550px;
+	}
+	.advantages-item{
+		flex-basis: 50%;
+		min-height: 275px;
+	}
+	.nav-middle{
+		width: 100%;
+	}
+}
+@media (max-width:768px){
+	.advantages-item{
+		flex-basis: 100%;
+	}
+}
