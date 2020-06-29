@@ -11,10 +11,7 @@ $('.burger-btn').on('click',function(e){
 
 
 
-// var options = {
-// 	offset: 100
-//  }
-// var header = new Headhesive('.nav', options);
+
 
 // slider
 $('.slider').slick({
