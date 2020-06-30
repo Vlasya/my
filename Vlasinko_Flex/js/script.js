@@ -31,4 +31,14 @@ $('.slider').slick({
 	arrows:true
  });
 
- 
+ var scrolled;
+window.onscroll = function() {
+    scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    if(scrolled > 300){
+        $(".nav").css({"background": "black"})
+    }
+    if(200 > scrolled){
+        $(".nav").css({"background": "transparent"})         
+    }
+
+}
