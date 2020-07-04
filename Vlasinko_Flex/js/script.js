@@ -34,10 +34,10 @@ $('.slider').slick({
  var scrolled;
 window.onscroll = function() {
     scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    if(scrolled > 300){
+    if(scrolled > 100){
         $(".nav").css({"background": "black"})
     }
-    if(200 > scrolled){
+    if(100 > scrolled){
         $(".nav").css({"background": "transparent"})         
     }
 
