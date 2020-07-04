@@ -31,6 +31,12 @@ $('.slider').slick({
 	arrows:true
  });
 
+ $('.single-item').slick({
+	arrows: true,
+ });
+
+
+//  фиксированная шапка
  var scrolled;
 window.onscroll = function() {
     scrolled = window.pageYOffset || document.documentElement.scrollTop;
