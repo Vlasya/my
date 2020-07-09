@@ -31,10 +31,12 @@ $('.slider').slick({
 	arrows:true
  });
 
- $('.single-item').slick({
-	arrows: true,
- });
+ 
 
+ $(document).ready(function(){
+	$('.slider-section').slick({
+	 });
+ });
 
 //  фиксированная шапка
  var scrolled;

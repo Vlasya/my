@@ -140,6 +140,12 @@
 		padding: 10px;
 	
 	}
+	.stock-subtitle{
+		font-size: 22px;
+	}
+	.title{
+		font-size: 26px;
+	}
 	.description-image{
 		width: 100%;
 	}

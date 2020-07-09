@@ -617,3 +617,15 @@ margin-bottom: 37px;
 	display: flex;
 	justify-content: center;
 } */
+
+.slick-slide{
+	width: 100%;
+	
+}
+.single-item .slick-slider .slick-slide .slick-initialized.slick-cloned{
+	opacity: 1 !important;
+}
+
+.slider img{
+	width: 100%;
+}
