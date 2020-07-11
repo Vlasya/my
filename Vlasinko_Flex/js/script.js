@@ -10,11 +10,8 @@ $('.burger-btn').on('click',function(e){
 // })
 
 
-
-
-
 // slider
-$('.slider').slick({
+$('.slider-1').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	arrows: false,
@@ -25,18 +22,32 @@ $('.slider').slick({
  $('.slider-sm').slick({
 	slidesToShow: 3,
 	slidesToScroll: 1,
-	asNavFor: '.slider',
+	asNavFor: '.slider-1',
 	focusOnSelect: true,
 	autoplay:true,
 	arrows:true
  });
 
  
-
+// slider-section
  $(document).ready(function(){
 	$('.slider-section').slick({
-	 });
+		autoplay:true,
+		arrows:true,
+		slidesToScroll: 1
+	});
  });
+
+//  reviews-wrap_sl
+$(document).ready(function(){
+	$('.reviews-sl').slick({
+		autoplay:true,
+		arrows:true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+	});
+ });
+
 
 //  фиксированная шапка
  var scrolled;
