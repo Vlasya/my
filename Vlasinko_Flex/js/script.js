@@ -34,7 +34,16 @@ $('.slider-1').slick({
 	$('.slider-section').slick({
 		autoplay:true,
 		arrows:true,
-		slidesToScroll: 1
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					arrows:false
+				}
+			 },
+			 
+		]
 	});
  });
 
@@ -44,7 +53,22 @@ $(document).ready(function(){
 		autoplay:true,
 		arrows:true,
 		slidesToShow: 3,
-		slidesToScroll: 3,
+		slidesToScroll: 1,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+				  slidesToShow: 2
+				}
+			 },
+			 {
+				breakpoint: 576,
+				settings: {
+				  slidesToShow: 1,
+				  arrows:false
+				}
+			 },
+		]
 	});
  });
 
