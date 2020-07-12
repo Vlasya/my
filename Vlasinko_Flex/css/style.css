@@ -46,7 +46,9 @@ li{
 a:focus,a:active{outline: none;}
 
 /* Общее */
-nav,footer,header,aside{display: block;}
+nav,footer,header,aside{
+	display: block;
+}
 body{
 	font-family:'Proxima Nova';
 }
@@ -490,9 +492,7 @@ margin-bottom: 37px;
 .info-btn{
 	margin-left: 60px;
 }
-.info-count__l{
-	/* margin-bottom: 45px;	 */
-}
+
 /* section info END */
 
 /* section stock  */
@@ -790,3 +790,59 @@ margin-bottom: 37px;
 	color: #777777;
 }
 /* trust  section END */
+
+/* contacts section */
+.contacts-wrap{
+	display: flex;
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color:black;
+	position: relative;
+}
+
+.contacts-modal{
+	width: 338px;
+	height: 229px;
+	background-color:#bebebe;
+	border-radius:1%;
+	padding: 30px;
+	position: absolute;
+	top:15%;
+	left: 30%;
+	z-index: 700;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-around;
+}
+.contacts-adres a,.contacts-phone a,.contacts-mail a{
+	color:#000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	font-weight: 700;
+	text-align: end;
+}
+.contacts-adres img ,.contacts-phone img ,.contacts-mail img {
+	margin-right: 24px;
+}
+a{
+	text-decoration: none;
+}
+/* contacts section END */
+
+/* footer */
+.footer{
+	
+	height: 115px;
+	background-color:black;
+	padding: 43px 0px 38px 0px;
+}
+.footer-wrap{
+	display: flex;
+	justify-content: space-around;
+}
+.footer-contacts a{
+	margin-right: 24px;
+}
+/* footer END */

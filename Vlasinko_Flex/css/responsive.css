@@ -220,4 +220,11 @@
 	font-size: 14px;
 	text-align: center;
 }
+.contacts-modal{
+	left: 5%;
+	width: 300px;
+}
+.footer-contacts a{
+	margin-right: 4px;
+}
 }
